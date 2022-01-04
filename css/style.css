@@ -13,8 +13,9 @@
   --loader-color7: #f8d824;
   --loader-color8: #ccd825f7;
   --loader-color9: #f8d824;
-  --shadow-color1: #24242404;
-  --shadow-color2: #00000056;
+  --shadow-color1: #32325d00;
+  --shadow-color2: #0000004d;
+  --shadow-color3: #31333694;
   --white-color: #fff;
 }
 
@@ -86,18 +87,18 @@ body {
   border-radius: 2rem;
   user-select: none;
   transition: 0.2s ease;
-  box-shadow: 0 0 2.4rem var(--shadow-color1);
   -webkit-tap-highlight-color: transparent;
+  box-shadow: var(--shadow-color1) 0 5rem 10rem -2rem,
+    var(--shadow-color2) 0 3rem 6rem -30rem,
+    var(--shadow-color3) 0 -0.2rem 0.6rem 0 inset;
 }
 
 #btn:hover {
-  color: var(--tertiary-color);
-  background-color: var(--hover-color) !important;
+  filter: contrast(1.1) brightness(0.9) saturate(1.1) hue-rotate(1deg) !important;
 }
 
 #btn:active {
   transform: scale(0.98);
-  box-shadow: 0 0 0.5rem var(--shadow-color2);
 }
 
 ::selection {
