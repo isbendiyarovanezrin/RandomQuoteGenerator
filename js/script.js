@@ -33,3 +33,7 @@ function removeLoader() {
 $(window).on("load", () => {
   setTimeout(removeLoader, 2000);
 });
+
+// background music
+const song = document.getElementById("song");
+song.play();
