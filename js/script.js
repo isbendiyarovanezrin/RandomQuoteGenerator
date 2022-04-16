@@ -19,7 +19,7 @@ fetch("https://type.fit/api/quotes")
   });
 
 function changeColor() {
-  const randomColor = "#" + ((Math.random() * 16777215) | 0).toString(16);
+  const randomColor = "#" + Math.floor(Math.random() * 16777215).toString(16);
   $("body, .quotes, #btn").css("background-color", randomColor);
 }
 
