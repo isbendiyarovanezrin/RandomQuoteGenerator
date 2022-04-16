@@ -2,7 +2,7 @@
   --font-family: "Amatic SC", cursive;
   --primary-color: #613;
   --secondary-color: #60103000;
-  --tertiary-color: #8a3;
+  --tertiary-color: #9ac52c;
   --hover-color: #661133ce;
   --loader-color1: #ccff66;
   --loader-color2: #b1ff1f;
@@ -16,7 +16,7 @@
   --shadow-color1: #32325d00;
   --shadow-color2: #0000004d;
   --shadow-color3: #31333694;
-  --white-color: #fff;
+  --white-color: #ffffff;
 }
 
 * {
@@ -132,45 +132,27 @@ body {
   left: 0;
   bottom: 0;
   right: 0;
-  height: 1.25rem;
-  width: 1.25rem;
+  height: 1.23rem;
+  width: 1.23rem;
   margin: auto;
   position: absolute;
   animation: translate 2300ms cubic-bezier(0.6, -0.28, 0.735, 0.045) infinite;
-  -o-animation: translate 2300ms cubic-bezier(0.6, -0.28, 0.735, 0.045) infinite;
-  -ms-animation: translate 2300ms cubic-bezier(0.6, -0.28, 0.735, 0.045)
-    infinite;
-  -webkit-animation: translate 2300ms cubic-bezier(0.6, -0.28, 0.735, 0.045)
-    infinite;
-  -moz-animation: translate 2300ms cubic-bezier(0.6, -0.28, 0.735, 0.045)
-    infinite;
 }
 
 .scale {
   height: 100%;
   width: 100%;
   animation: scale 2300ms cubic-bezier(0.6, -0.28, 0.735, 0.045) infinite;
-  -o-animation: scale 2300ms cubic-bezier(0.6, -0.28, 0.735, 0.045) infinite;
-  -ms-animation: scale 2300ms cubic-bezier(0.6, -0.28, 0.735, 0.045) infinite;
-  -webkit-animation: scale 2300ms cubic-bezier(0.6, -0.28, 0.735, 0.045)
-    infinite;
-  -moz-animation: scale 2300ms cubic-bezier(0.6, -0.28, 0.735, 0.045) infinite;
 }
 
 .cssload-wrap:nth-child(1) {
   transform: rotate(320deg);
-  -o-transform: rotate(320deg);
   -ms-transform: rotate(320deg);
-  -webkit-transform: rotate(320deg);
-  -moz-transform: rotate(320deg);
 }
 
 .cssload-wrap:nth-child(1) .translate,
 .cssload-wrap:nth-child(1) .scale {
   animation-delay: 0ms;
-  -o-animation-delay: 0ms;
-  -ms-animation-delay: 0ms;
-  -webkit-animation-delay: 0ms;
   -moz-animation-delay: 0ms;
 }
 
@@ -180,18 +162,12 @@ body {
 
 .cssload-wrap:nth-child(2) {
   transform: rotate(280deg);
-  -o-transform: rotate(280deg);
   -ms-transform: rotate(280deg);
-  -webkit-transform: rotate(280deg);
-  -moz-transform: rotate(280deg);
 }
 
 .cssload-wrap:nth-child(2) .translate,
 .cssload-wrap:nth-child(2) .scale {
   animation-delay: -255.56ms;
-  -o-animation-delay: -255.56ms;
-  -ms-animation-delay: -255.56ms;
-  -webkit-animation-delay: -255.56ms;
   -moz-animation-delay: -255.56ms;
 }
 
@@ -201,18 +177,12 @@ body {
 
 .cssload-wrap:nth-child(3) {
   transform: rotate(240deg);
-  -o-transform: rotate(240deg);
   -ms-transform: rotate(240deg);
-  -webkit-transform: rotate(240deg);
-  -moz-transform: rotate(240deg);
 }
 
 .cssload-wrap:nth-child(3) .translate,
 .cssload-wrap:nth-child(3) .scale {
   animation-delay: -511.11ms;
-  -o-animation-delay: -511.11ms;
-  -ms-animation-delay: -511.11ms;
-  -webkit-animation-delay: -511.11ms;
   -moz-animation-delay: -511.11ms;
 }
 
@@ -222,18 +192,12 @@ body {
 
 .cssload-wrap:nth-child(4) {
   transform: rotate(200deg);
-  -o-transform: rotate(200deg);
   -ms-transform: rotate(200deg);
-  -webkit-transform: rotate(200deg);
-  -moz-transform: rotate(200deg);
 }
 
 .cssload-wrap:nth-child(4) .translate,
 .cssload-wrap:nth-child(4) .scale {
   animation-delay: -766.67ms;
-  -o-animation-delay: -766.67ms;
-  -ms-animation-delay: -766.67ms;
-  -webkit-animation-delay: -766.67ms;
   -moz-animation-delay: -766.67ms;
 }
 
@@ -243,18 +207,12 @@ body {
 
 .cssload-wrap:nth-child(5) {
   transform: rotate(160deg);
-  -o-transform: rotate(160deg);
   -ms-transform: rotate(160deg);
-  -webkit-transform: rotate(160deg);
-  -moz-transform: rotate(160deg);
 }
 
 .cssload-wrap:nth-child(5) .translate,
 .cssload-wrap:nth-child(5) .scale {
   animation-delay: -1022.22ms;
-  -o-animation-delay: -1022.22ms;
-  -ms-animation-delay: -1022.22ms;
-  -webkit-animation-delay: -1022.22ms;
   -moz-animation-delay: -1022.22ms;
 }
 
@@ -264,18 +222,12 @@ body {
 
 .cssload-wrap:nth-child(6) {
   transform: rotate(120deg);
-  -o-transform: rotate(120deg);
   -ms-transform: rotate(120deg);
-  -webkit-transform: rotate(120deg);
-  -moz-transform: rotate(120deg);
 }
 
 .cssload-wrap:nth-child(6) .translate,
 .cssload-wrap:nth-child(6) .scale {
   animation-delay: -1277.78ms;
-  -o-animation-delay: -1277.78ms;
-  -ms-animation-delay: -1277.78ms;
-  -webkit-animation-delay: -1277.78ms;
   -moz-animation-delay: -1277.78ms;
 }
 
@@ -285,18 +237,12 @@ body {
 
 .cssload-wrap:nth-child(7) {
   transform: rotate(80deg);
-  -o-transform: rotate(80deg);
   -ms-transform: rotate(80deg);
-  -webkit-transform: rotate(80deg);
-  -moz-transform: rotate(80deg);
 }
 
 .cssload-wrap:nth-child(7) .translate,
 .cssload-wrap:nth-child(7) .scale {
   animation-delay: -1533.33ms;
-  -o-animation-delay: -1533.33ms;
-  -ms-animation-delay: -1533.33ms;
-  -webkit-animation-delay: -1533.33ms;
   -moz-animation-delay: -1533.33ms;
 }
 
@@ -306,18 +252,12 @@ body {
 
 .cssload-wrap:nth-child(8) {
   transform: rotate(40deg);
-  -o-transform: rotate(40deg);
   -ms-transform: rotate(40deg);
-  -webkit-transform: rotate(40deg);
-  -moz-transform: rotate(40deg);
 }
 
 .cssload-wrap:nth-child(8) .translate,
 .cssload-wrap:nth-child(8) .scale {
   animation-delay: -1788.89ms;
-  -o-animation-delay: -1788.89ms;
-  -ms-animation-delay: -1788.89ms;
-  -webkit-animation-delay: -1788.89ms;
   -moz-animation-delay: -1788.89ms;
 }
 
@@ -327,18 +267,12 @@ body {
 
 .cssload-wrap:nth-child(9) {
   transform: rotate(0deg);
-  -o-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
 }
 
 .cssload-wrap:nth-child(9) .translate,
 .cssload-wrap:nth-child(9) .scale {
   animation-delay: -2044.44ms;
-  -o-animation-delay: -2044.44ms;
-  -ms-animation-delay: -2044.44ms;
-  -webkit-animation-delay: -2044.44ms;
   -moz-animation-delay: -2044.44ms;
 }
 
@@ -360,20 +294,6 @@ body {
   }
 }
 
-@-o-keyframes translate {
-  0% {
-    -o-transform: translate3d(-600%, 0, 0);
-  }
-
-  50% {
-    -o-transform: translate3d(600%, 0, 0);
-  }
-
-  100% {
-    -o-transform: translate3d(-600%, 0, 0);
-  }
-}
-
 @-ms-keyframes translate {
   0% {
     -ms-transform: translate3d(-600%, 0, 0);
@@ -385,34 +305,6 @@ body {
 
   100% {
     -ms-transform: translate3d(-600%, 0, 0);
-  }
-}
-
-@-webkit-keyframes translate {
-  0% {
-    -webkit-transform: translate3d(-600%, 0, 0);
-  }
-
-  50% {
-    -webkit-transform: translate3d(600%, 0, 0);
-  }
-
-  100% {
-    -webkit-transform: translate3d(-600%, 0, 0);
-  }
-}
-
-@-moz-keyframes translate {
-  0% {
-    -moz-transform: translate3d(-600%, 0, 0);
-  }
-
-  50% {
-    -moz-transform: translate3d(600%, 0, 0);
-  }
-
-  100% {
-    -moz-transform: translate3d(-600%, 0, 0);
   }
 }
 
@@ -438,28 +330,6 @@ body {
   }
 }
 
-@-o-keyframes scale {
-  0% {
-    -o-transform: translateZ(0) scale(0.75, 1);
-  }
-
-  25% {
-    -o-transform: translateZ(0) scale(1.5, 0.5);
-  }
-
-  50% {
-    -o-transform: translateZ(0) scale(0.75, 1);
-  }
-
-  75% {
-    -o-transform: translateZ(0) scale(1.5, 0.5);
-  }
-
-  100% {
-    -o-transform: translateZ(0) scale(0.75, 1);
-  }
-}
-
 @-ms-keyframes scale {
   0% {
     -ms-transform: translateZ(0) scale(0.75, 1);
@@ -481,53 +351,9 @@ body {
     -ms-transform: translateZ(0) scale(0.75, 1);
   }
 }
-
-@-webkit-keyframes scale {
-  0% {
-    -webkit-transform: translateZ(0) scale(0.75, 1);
-  }
-
-  25% {
-    -webkit-transform: translateZ(0) scale(1.5, 0.5);
-  }
-
-  50% {
-    -webkit-transform: translateZ(0) scale(0.75, 1);
-  }
-
-  75% {
-    -webkit-transform: translateZ(0) scale(1.5, 0.5);
-  }
-
-  100% {
-    -webkit-transform: translateZ(0) scale(0.75, 1);
-  }
-}
-
-@-moz-keyframes scale {
-  0% {
-    -moz-transform: translateZ(0) scale(0.75, 1);
-  }
-
-  25% {
-    -moz-transform: translateZ(0) scale(1.5, 0.5);
-  }
-
-  50% {
-    -moz-transform: translateZ(0) scale(0.75, 1);
-  }
-
-  75% {
-    -moz-transform: translateZ(0) scale(1.5, 0.5);
-  }
-
-  100% {
-    -moz-transform: translateZ(0) scale(0.75, 1);
-  }
-}
 /* loader end */
 
-/* media queries */
+/* media queries start */
 @media screen and (max-width: 600px) {
   html {
     font-size: 8px;
@@ -539,3 +365,4 @@ body {
     font-size: 6px;
   }
 }
+/* media queries end */
